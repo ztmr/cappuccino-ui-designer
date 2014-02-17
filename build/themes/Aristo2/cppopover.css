@@ -1,0 +1,147 @@
+.cpwindow.cppopover
+{	
+	position:absolute;
+	overflow: visible;
+	 
+	 background: transparent;
+     -moz-border-radius: 5px; 
+    -o-border-radius: 5px; 
+    -webkit-border-radius: 5px;   
+    border-radius: 5px;
+    border:1px solid #b5b5b5;
+}
+
+.cpview.cppopover-content
+{
+	 -moz-border-radius: 5px; 
+    -o-border-radius: 5px; 
+    -webkit-border-radius: 5px;   
+    border-radius: 5px;
+    
+}
+
+
+.arrow_n, 
+.arrow_s 
+{
+	position: relative;
+	background: #fafafa;
+	height:100%;
+	width:0;
+	z-index:-1;
+}
+
+.arrow_w, 
+.arrow_e
+{
+	position: relative;
+	background: #fafafa;
+	height:0;
+	width:100%;
+	z-index:-1;
+
+}
+
+.arrow_n:after, .arrow_n:before {
+	bottom: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_n:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: #fafafa;
+	border-width: 14px;
+	left: 50%;
+	margin-left: -14px;
+}
+.arrow_n:before {
+	border-color: rgba(181, 181, 181, 0);
+	border-bottom-color: #b5b5b5;
+	border-width: 15px;
+	left: 50%;
+	margin-left: -15px;
+}
+
+ 
+.arrow_w:after, .arrow_w:before {
+	right: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_w:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-right-color: #fafafa;
+	border-width: 14px;
+	top: 50%;
+	margin-top: -14px;
+}
+.arrow_w:before {
+	border-color: rgba(181, 181, 181, 0);
+	border-right-color: #b5b5b5;
+	border-width: 15px;
+	top: 50%;
+	margin-top: -15px;
+}
+
+ 
+.arrow_e:after, .arrow_e:before {
+	left: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_e:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-left-color: #fafafa;
+	border-width: 14px;
+	top: 50%;
+	margin-top: -14px;
+}
+.arrow_e:before {
+	border-color: rgba(181, 181, 181, 0);
+	border-left-color: #b5b5b5;
+	border-width: 15px;
+	top: 50%;
+	margin-top: -15px;
+}
+
+
+.arrow_s:after, .arrow_s:before {
+	top: 100%;
+	
+	border: solid transparent;
+	content: " ";
+	 
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_s:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-top-color: #fafafa;
+	border-width: 14px;
+	left: 50%;
+	margin-left: -14px;
+}
+.arrow_s:before {
+	border-color: rgba(181, 181, 181, 0);
+	border-top-color: #b5b5b5;
+	border-width: 15px;
+	left: 50%;
+	margin-left: -15px;
+}

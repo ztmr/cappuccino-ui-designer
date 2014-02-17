@@ -1,0 +1,35 @@
+.cpview.cpcolorwell
+{
+	border:1px solid #b5b5b5;
+	background: #ebebeb;  
+    background: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#e7e7e7));
+    background: -moz-linear-gradient(top, #fefefe, #e7e7e7); 
+    background: -o-linear-gradient(top, #fefefe, #e7e7e7);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#fefefe', endColorstr='#e7e7e7');/*For IEs8-9*/ 
+    -moz-border-radius: 3px ;
+    -webkit-border-radius: 3px ;   
+    -o-border-radius: 3px ; 
+    border-radius: 3px ; 
+    cursor:default;
+    outline:none;
+}
+
+
+.cpcolorwell.highlighted
+{
+	border: 1px solid #BDBDBD; 
+    border-top: 1px solid #949494 ;
+    border-left: 1px solid #A6A6A6 ;
+    border-right: 1px solid #A6A6A6 ;
+    background: #d8d8d8;
+}
+
+
+.cpcolorwell-colorview
+{	
+	position: absolute;
+	top:5px;
+	left:5px;
+	background: red;
+
+}

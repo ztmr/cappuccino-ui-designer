@@ -1,0 +1,22 @@
+ 
+ 
+.cpbutton.cpstepper-uptick  
+{	
+	-moz-border-radius: 5px 5px 0 0  !important;
+    -webkit-border-radius: 5px 5px 0 0  !important;
+    -o-border-radius: 5px 5px 0 0  !important;
+    border-radius: 5px 5px 0 0  !important;
+    border-bottom: none !important;
+
+
+}
+
+.cpbutton.cpstepper-downtick  
+{
+	 
+	-moz-border-radius: 0 0 5px 5px !important;
+    -webkit-border-radius: 0 0 5px 5px !important;
+    -o-border-radius: 0 0 5px 5px !important;
+    border-radius: 0 0 5px 5px !important;
+}
+ 

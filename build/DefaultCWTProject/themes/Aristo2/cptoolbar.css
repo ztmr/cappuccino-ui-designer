@@ -1,0 +1,77 @@
+.cpview.cptoolbar
+{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:100%;
+	overflow:visible;
+	
+	background: #d4d4d4;
+  	background: -moz-linear-gradient(
+		top,
+		#fafafa,
+		#d3d3d3);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#fafafa), 
+		to(#d3d3d3));
+
+
+	background: -o-linear-gradient(top, #fafafa 0%, #d3d3d3 100%);
+	background: -ms-linear-gradient(top, #fafafa 0%,#d3d3d3 100%);
+
+	z-index:0;
+	border:none;
+	border-bottom: 1px solid #8a8a8a;
+
+
+}
+
+.cpbutton.cptoolbar-overflow-button
+{	
+	background: #e0e0e0;
+  	background: -moz-linear-gradient(
+		top,
+		#f0f0f0,
+		#c5c5c5);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#f0f0f0), 
+		to(#c5c5c5));
+
+
+	background: -o-linear-gradient(top, #f0f0f0 0%, #c5c5c5 100%);
+	background: -ms-linear-gradient(top, #f0f0f0 0%,#c5c5c5 100%);
+	border:none  ;
+}
+
+.cpbutton.highlighted.cptoolbar-overflow-button
+{	
+	background: #c0c0c0;
+}
+
+.cpbutton.focus.cptoolbar-overflow-button
+{
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+ 
+ 
+.cptoolbaritem-label
+{
+	-webkit-user-select: none; 
+    -moz-user-select: none; 
+    -o-user-select: none;
+    user-select: none;
+    cursor: default !important;
+}
+
+ 
+
+.cptoolbaritem-separator
+{
+	width:1px;
+	background:#939393;
+	
+}

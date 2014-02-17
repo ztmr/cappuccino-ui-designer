@@ -1,0 +1,159 @@
+.cptableview
+{
+		border:none;
+}
+
+
+.cptableviewheader
+{
+	background: #e5e5e5;
+}
+
+
+.cptablecolumnheaderview
+{
+	background:#e5e5e5;
+  	background: -moz-linear-gradient(
+		top,
+		#f0f0f0,
+		#e0e0e0);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#f0f0f0), 
+		to(#e0e0e0));
+
+
+	background: -o-linear-gradient(top, #f0f0f0 0%, #e0e0e0 100%);
+	background: -ms-linear-gradient(top, #f0f0f0 0%, #e0e0e0 100%);
+	 
+	-webkit-touch-callout: none;
+
+	-webkit-user-select: none ;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	
+
+}
+
+.cptablecolumnheaderview.drag
+{
+	background: #b5b5b5;
+	filter:none;
+}
+
+.cptableviewheader
+{
+	border:none;
+	border-bottom : 1px solid #b5b5b5  ;
+	
+}
+
+
+.cptableview-dataview
+{
+	  padding-left:4px !important;
+	  padding-top:2px !important;
+
+	
+}
+
+.cptableview-dataview.selected div
+{
+	color:white !important  ;
+	text-shadow:0 1px #3f3f3f !important;
+}
+
+
+.cptableview-cell-editor
+{
+	position:absolute;
+	top:0px;
+	outline:none;
+	left:0px;
+	padding:0px;
+	z-index:1000;
+	background: #ffffff !important; 
+	border:1px solid #7eb0e0;
+	resize:none;
+	overflow:auto;
+}
+
+
+.cptableview-column-asc
+{
+	width : 7px;
+	height : 9px;
+	right : 12px;
+	top : 6px;
+	position:absolute;
+	background:url(images/upArrowBlack.png) no-repeat center;  
+}
+
+
+.cptableview-column-desc
+{
+	width : 7px;
+	height : 9px;
+	right : 12px;
+	top : 7px;
+	position:absolute;
+	background:url(images/downArrowBlack.png) no-repeat center;
+}
+
+.cptableview-empty-text
+{
+	position: absolute;
+	top:16px;
+	width:100%;
+	margin:auto;
+	color:#999;
+	z-index: 100;
+	text-align: center; 
+	background: transparent;
+	font:bold 14px Arial,sans-serif;
+	 
+}
+
+.cptableview-loading
+{
+	position: absolute;
+	top:20px;
+	width:100%;
+	height:32px;
+	margin:auto;
+	color:#999;
+	z-index: 100;
+	text-align: center; 
+	background: url(../activityIndicator.gif) center no-repeat;
+	 
+}
+
+
+ .cpbutton.cpoutlineview-disclosure-control
+{
+	background: url(images/disclosureTriangleCollapsed.png) center no-repeat !important; 
+	border:none;
+	background-size: 12px 12px !important;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none; 
+	z-index:100;
+	
+	
+}
+
+.cpbutton.selected.cpoutlineview-disclosure-control
+{ 
+	
+	background: url(images/disclosureTriangleExpanded.png) center no-repeat !important; 
+	border:none;
+	background-size: 12px 12px !important;
+ 	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none; 
+	border:none;
+}
+
+ 

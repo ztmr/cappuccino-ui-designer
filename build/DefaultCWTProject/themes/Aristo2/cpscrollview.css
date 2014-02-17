@@ -1,0 +1,282 @@
+.cpview.cpscrollview 
+{
+	outline:none; 
+	 
+}
+
+.hud .cpscrollview-vscrollarea
+{
+	background: url(images/scrollbars/HUD/scroller-vertical-track.png) center repeat-y; 
+}
+
+.cpscrollview-vscrollarea
+{
+	 
+	background: url(images/scrollbars/scroller-vertical-track.png) center repeat-y; 
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none; 
+	outline:none;
+	z-index:1000;
+	 
+}
+
+.hud .cpscrollview-vscrollup
+{
+	background: url(images/scrollbars/HUD/scroller-up-arrow.png) center no-repeat;
+}
+
+.cpscrollview-vscrollup
+{
+	position: absolute;
+	top:0px;
+	left:0px;
+	height:11px;
+	width:15px;
+	background: url(images/scrollbars/scroller-up-arrow.png) center no-repeat;
+
+}
+
+
+.hud .cpscrollview-vscrollup.active
+{
+	background: url(images/scrollbars/HUD/scroller-up-arrow-highlighted.png) center no-repeat;
+
+}
+
+.hud .cpscrollview-vthumb-top
+{
+	background: url(images/scrollbars/HUD/scroller-vertical-knob-top.png) center no-repeat;
+}
+
+.cpscrollview-vthumb-top
+{
+	display:none;
+}
+
+
+.hud .cpscrollview-vscrolldown
+{
+	background: url(images/scrollbars/HUD/scroller-down-arrow.png) center no-repeat;
+}
+
+
+.cpscrollview-vscrolldown
+{
+	position: absolute;
+	bottom:0px;
+	left:0;
+	height:11px;
+	width:15px;
+	background: url(images/scrollbars/scroller-down-arrow.png) center no-repeat;
+
+}
+
+.hud .cpscrollview-vscrolldown.active
+{
+	background: url(images/scrollbars/HUD/scroller-down-arrow-highlighted.png) center no-repeat;
+}
+
+ 
+
+.hud .cpscrollview-vthumb-bottom
+{
+	background:  url(images/scrollbars/HUD/scroller-vertical-knob-bottom.png) center no-repeat;
+}
+
+
+.cpscrollview-vthumb-bottom
+{
+	display:none;
+
+}
+
+.hud .cpscrollview-vthumb-center
+{
+	background: url(images/scrollbars/HUD/scroller-vertical-knob-center.png) center repeat-y;
+}
+
+.cpscrollview-vthumb-center
+{
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	background:#a9a9a9; 
+	opacity: 0.85;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";  
+	filter: alpha(opacity=85);					 
+	-moz-border-radius:10px;
+	border-radius:10px; 
+}
+
+.cpscrollview-vthumb-center.active
+{
+	background:#707070;
+}
+
+.cpscrollview-vscrollthumb
+{
+	position:absolute;
+	width:8px;
+	left:4px;
+	top:13px;
+	height:50px;
+
+}
+
+.hud .cpscrollview-hscrollarea
+{
+	background: url(images/scrollbars/HUD/scroller-horizontal-track.png) center repeat-x;
+}
+
+.cpscrollview-hscrollarea
+{
+	background: url(images/scrollbars/scroller-horizontal-track.png) center repeat-x;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	outline:none;
+	z-index:1000;
+
+
+}
+
+.hud .cpscrollview-hscrollleft
+{
+	background: url(images/scrollbars/HUD/scroller-left-arrow.png) center no-repeat;
+}
+
+.cpscrollview-hscrollleft
+{
+	position: absolute;
+	left:0px;
+	top:0px;
+	width:11px;
+	height:15px;
+	background: url(images/scrollbars/scroller-left-arrow.png) center no-repeat;
+
+}
+
+.hud .cpscrollview-hscrollleft.active
+{
+	background: url(images/scrollbars/HUD/scroller-left-arrow-highlighted.png) center no-repeat;
+}
+
+.cpscrollview-hscrollleft.active
+{
+ 
+}
+
+
+.hud .cpscrollview-hscrollright
+{
+	background: url(images/scrollbars/HUD/scroller-right-arrow.png) center no-repeat;
+}
+
+.cpscrollview-hscrollright
+{
+	position: absolute;
+	right:0px;
+	top:0px;
+	width:11px;
+	height:15px;
+	background: url(images/scrollbars/scroller-right-arrow.png) center no-repeat;
+
+
+}
+
+.hud .cpscrollview-hscrollright.active
+{
+	background: url(images/scrollbars/HUD/scroller-right-arrow-highlighted.png) center no-repeat;
+
+}
+
+.cpscrollview-hscrollright.active
+{
+	
+}
+
+
+.cpscrollview-hscrollthumb
+{
+	position:absolute;
+	width:50px;
+	left:0px;
+	top:4px;
+	height:8px;
+	  
+	
+}
+
+.hud .cpscrollview-hthumb-left
+{
+	background: url(images/scrollbars/HUD/scroller-horizontal-knob-left.png) center no-repeat;
+}
+
+.cpscrollview-hthumb-left
+{
+	display: none;
+
+}
+
+
+.hud .cpscrollview-hthumb-center
+{
+	background: url(images/scrollbars/HUD/scroller-horizontal-knob-center.png) center repeat-x;
+}
+
+.cpscrollview-hthumb-center
+{
+	 position:absolute;
+	left:0px;
+	right:0px;
+	top:0px;
+	height:8px;
+	background:#a9a9a9; 
+	opacity: 0.85;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";  
+	filter: alpha(opacity=85);					 
+	-moz-border-radius:10px;
+	border-radius:10px; 
+}
+
+.cpscrollview-hthumb-center.active
+{
+	background:#707070 ;
+}
+
+.hud .cpscrollview-hthumb-right
+{
+	background: url(images/scrollbars/HUD/scroller-horizontal-knob-right.png) center no-repeat;
+}
+
+
+.cpscrollview-hthumb-right
+{
+	 display:none; 
+
+}
+
+.hud .cpscrollview-bottom-right
+{
+	background:url(images/window/HUD/windowTopHUD.png) center repeat-x;
+}
+
+.cpscrollview-bottom-right
+{
+	position:absolute;
+	bottom:0;
+	right:0;
+	width:14px;
+	height:14px;
+	background: #d7d6d8;
+	z-index:1;
+}

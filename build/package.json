@@ -1,0 +1,18 @@
+{
+  "name": "Atlas",
+  "main": "index.html",
+  "window": {
+    "title": "Atlas",
+    "icon": "atlas.png",
+    "toolbar": true,
+    "frame": true,
+    "width": 1280,
+    "height": 768,
+    "position": "mouse",
+    "min_width": 400,
+    "min_height": 300 
+  },
+  "webkit": {
+    "plugin": true
+  }
+}

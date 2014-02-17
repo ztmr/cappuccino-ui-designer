@@ -1,0 +1,5 @@
+{
+	"name" : "Atlas",
+	"Version" : "0.0.1",
+	"CPApplicationDelegateClass" : "AppController"
+}

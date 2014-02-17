@@ -1,0 +1,880 @@
+
+.cpbutton.selected.disabled,
+.cpview.cpbutton
+{
+	position: absolute; 
+	overflow:hidden;
+    outline:none;
+  	background: #f0f0f0;
+  	background: -moz-linear-gradient(
+		top,
+		#fefefe,
+		#e7e7e7);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#fefefe), 
+		to(#e7e7e7));
+
+
+	background: -o-linear-gradient(top, #fefefe 0%, #e7e7e7 100%);
+	background: -ms-linear-gradient(top, #fefefe 0%, #e7e7e7 100%);
+		
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	
+	z-index: -1;
+
+	border:1px solid #9d9d9d; 
+ 	
+}
+
+ .cptoolbar-overflow-button
+{
+	border:none;
+	background:transparent;
+}
+ 
+/* states */
+
+ 
+.cpbutton.highlighted
+{
+	background: #d3d3d3; 
+  	background: -moz-linear-gradient(
+		top,
+		#c8c8c8,
+		#d5d5d5);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#c8c8c8), 
+		to(#d9d9d9));
+
+
+	background: -o-linear-gradient(top, #c8c8c8 0%, #d5d5d5 100%);
+	background: -ms-linear-gradient(top, #c8c8c8 0%, #d5d5d5 100%); 
+}
+
+ 
+.cpbutton.rounded
+{
+	-moz-border-radius: 16px;
+	-webkit-border-radius: 16px;
+	border-radius: 16px;
+}
+
+
+.cpbutton.square
+{
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.cpbutton.selected
+{
+	background:  #0077db;
+  	background: -moz-linear-gradient(
+		top,
+		#7099f1,
+		#5881d9);
+
+  	 background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#7099f1), 
+		to(#5881d9));
+
+
+	background: -o-linear-gradient(top, #7099f1 0%, #5881d9 100%);
+	background:  -ms-linear-gradient(top, #7099f1 0%, #5881d9 100%);
+
+  	border: 1px solid #416ac2 ;
+
+ } 
+
+ .cpbutton.selected.highlighted
+{
+	background:  #0077db;
+  	background: -moz-linear-gradient(
+		top,
+		#5e87df,
+		#466fc7);
+	 background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#5e87df), 
+		to(#466fc7));
+
+
+	background: -o-linear-gradient(top, #5e87df 0%, #466fc7 100%);
+	background:  -ms-linear-gradient(top, #5e87df 0%, #466fc7 100%);
+  	 
+ } 
+
+.cpbutton.cpcheckbox.selected  .cpbutton-title
+ {
+ 	color:#111  !important;
+ 	text-shadow:0 1px #fff !important;
+ }
+
+ .cpbutton.selected .cpbutton-title
+ {
+ 	color:white !important;
+ 	text-shadow:0px 1px #000 !important;
+ }
+
+.cpbutton.disabled.selected .cpbutton-title
+ {
+ 	color:black !important;
+ 	text-shadow:0px 1px #fff !important;
+ }
+
+
+ .cpbutton.cpbutton-title
+ {
+ 	z-index: 2;
+ }
+
+ 
+.cpbutton.focus
+{
+	 /* TO DO */
+}
+
+.cpbutton.no-border
+{
+	border:none;
+}
+
+.cpbutton.no-border.focus
+{
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none; 
+}
+
+
+ 
+.cpbutton.textured 
+{
+
+	background: #e0e0e0; 
+  	background: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#c3c3c3));
+	background: -moz-linear-gradient(top, #f6f6f6, #c3c3c3);
+	background: -o-linear-gradient(top, #f6f6f6, #c3c3c3);
+	background: -ms-linear-gradient(top, #f6f6f6 0%,#c3c3c3 100%); 
+
+	border: 1px solid #6a6a6a;
+
+}
+
+.cpbutton.textured.highlighted
+{
+	background: #9c9c9c; 
+
+	background: -webkit-gradient(linear, left top, left bottom, from(#d5d5d5), to(#8a8a8a));
+	background: -moz-linear-gradient(top, #d5d5d5, #8a8a8a);
+	background: -o-linear-gradient(top, #d5d5d5, #8a8a8a);
+	background: -ms-linear-gradient(top, #d5d5d5 0%,#8a8a8a 100%); 
+ 
+	-moz-box-shadow: inset 0 1px 2px 1px #494949;
+	-webkit-box-shadow: inset 0 1px 2px 1px #494949;
+	box-shadow: inset 0 1px 2px 1px #494949;
+}
+
+.cpbutton.textured.selected
+{
+
+	background: #868686;
+	color: #efefef;
+	border: 1px solid #4d4d4d;
+	-moz-box-shadow: inset 0 3px 8px 3px #555;
+	-webkit-box-shadow: inset 0 3px 8px 3px #555;
+	box-shadow: inset 0 3px 8px 3px #555;
+
+}
+
+
+.cphyperlink.hovered .cpbutton-title,
+.cphyperlink.focus .cpbutton-title
+{
+	text-decoration:underline !important;
+	cursor:pointer;
+}
+
+/* segment */
+
+.cpview.cpsegmentcontrol
+{
+	 
+}
+
+.cpbutton.cpsegment  
+{
+
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px; 
+
+
+	 
+}
+
+.cpbutton.cpsegment.selected  
+{
+	z-index: 10;
+}
+
+.cpbutton.cpsegment.right
+{
+   	-moz-border-radius: 0 5px 5px 0;
+	-webkit-border-radius: 0 5px 5px 0;
+	border-radius: 0 5px 5px 0;
+	 
+     
+}
+
+.cpbutton.cpsegment.left
+{
+   	-moz-border-radius: 5px 0px 0px 5px;
+	-webkit-border-radius: 5px 0px 0px 5px;
+	border-radius: 5px 0px 0px 5px;
+ 
+}
+
+
+.cpbutton.cpsegment.left.square,
+.cpbutton.cpsegment.right.square
+{
+   	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px  ; 
+ 
+}
+
+
+/* hud */
+
+
+.hud .cpbutton 
+{
+	background: #404040;
+  	background: -moz-linear-gradient(
+		top,
+		#505050,
+		#303030);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#505050), 
+		to(#303030));
+
+
+	background: -o-linear-gradient(top, #505050 0%, #303030 100%);
+	background: -ms-linear-gradient(top, #505050 0%, #303030 100%);
+
+	border:1px solid #030303;
+}
+
+
+.hud .cpbutton.highlighted
+{
+	
+	background: #333333;
+  	background: -moz-linear-gradient(
+		top,
+		#303030,
+		#404040);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#303030), 
+		to(#404040));
+	background: -o-linear-gradient(top, #303030 0%, #404040 100%);
+	background: -ms-linear-gradient(top, #303030 0%, #404040 100%);
+	border:1px solid #131313;
+}
+
+.hud .cpbutton.selected
+{
+	
+	background: #202020;
+  	 
+}
+
+.hud .cpbutton.highlighted.selected
+{
+	
+	background: #111;
+  	 
+	 
+}
+
+ 
+.hud .cpbutton.focus
+{
+	 /*TODO*/
+}
+ 
+
+ 
+
+
+/* popup button */
+
+.cppopupbutton-buttonview
+{
+	 
+	height:23px;
+	position: absolute;
+	left:0px;
+	top:0px;
+	z-index: -1; 
+	background: none;
+	border: 1px solid #8a8a8a;
+	-moz-border-radius: 5px 0px 0px 5px;
+	-webkit-border-radius: 5px 0px 0px 5px;
+	border-radius: 5px 0px 0px 5px;
+
+	background: #f0f0f0;
+  	background: -moz-linear-gradient(
+		top,
+		#f9f9f9,
+		#e7e7e7);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#f9f9f9), 
+		to(#e7e7e7));
+
+
+	background: -o-linear-gradient(top, #f9f9f9 0%, #e7e7e7 100%);
+	background: -ms-linear-gradient(top, #f9f9f9 0%, #e7e7e7 100%);
+}
+
+.cpbutton.textured .cppopupbutton-buttonview
+{
+
+	display: none;
+
+}
+
+.cpbutton.textured.highlighted .cppopupbutton-buttonview
+{
+	 display: none;
+}
+
+ 
+
+.cpbutton.cppopupbutton.selected
+{
+	border:none;
+	background: #f0f0f0;
+  	background: -moz-linear-gradient(
+		top,
+		#f9f9f9,
+		#e7e7e7);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#f9f9f9), 
+		to(#e7e7e7));
+
+
+	background: -o-linear-gradient(top, #f9f9f9 0%, #e7e7e7 100%);
+	background: -ms-linear-gradient(top, #f9f9f9 0%, #e7e7e7 100%);
+}
+
+.cpbutton.highlighted .cppopupbutton-buttonview
+{
+	background: #d3d3d3; 
+  	background: -moz-linear-gradient(
+		top,
+		#cecece,
+		#d5d5d5);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#cecece), 
+		to(#d5d5d5));
+
+
+	background: -o-linear-gradient(top, #cecece 0%, #d5d5d5 100%);
+	background: -ms-linear-gradient(top, #cecece 0%, #d5d5d5 100%); 
+}
+
+.hud .cpbutton .cppopupbutton-buttonview 
+{
+
+	border: 1px solid #111;
+}
+
+.hud .cppopupbutton .cpbutton-title
+{
+	color: #303030 !important ;
+	text-shadow:0px 1px #fafafa !important;
+}
+
+ 
+ 
+.cppopupbutton-trigger
+{
+	 width:23px;
+	 height:23px;
+	 position: absolute;
+	 right:0px;
+	 top:0px;
+     background: #5881d9  url(images/popup.png) center no-repeat;
+  	 background: url(images/popup.png) center no-repeat, -moz-linear-gradient(
+		top,
+		#7099f1,
+		#5881d9);
+	 background: url(images/popup.png) center no-repeat, -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#7099f1), 
+		to(#5881d9));
+
+
+	background: url(images/popup.png) center no-repeat, -o-linear-gradient(top, #7099f1 0%, #5881d9 100%);
+	background: url(images/popup.png) center no-repeat, -ms-linear-gradient(top, #7099f1 0%, #5881d9 100%);
+
+  	border: 1px solid #416ac2 ;
+     z-index: 10;
+
+     -moz-border-radius: 0px 5px 5px 0px;
+	-webkit-border-radius: 0px 5px 5px 0px;
+	border-radius: 0px 5px 5px 0px;
+     
+}
+
+ 
+
+.hud .cpbutton .cppopupbutton-trigger 
+{
+
+	background:#909090  url(images/popup.png) center no-repeat;
+  	 background: url(images/popup.png) center no-repeat, -moz-linear-gradient(
+		top,
+		#909090,
+		#505050);
+	 background: url(images/popup.png) center no-repeat, -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#909090), 
+		to(#505050));
+
+
+	background: url(images/popup.png) center no-repeat, -o-linear-gradient(top, #909090 0%, #505050 100%);
+	background: url(images/popup.png) center no-repeat, -ms-linear-gradient(top, #909090 0%, #505050 100%);
+
+	border: 1px solid #111 ;
+
+}
+
+ 
+.pullsdown .cppopupbutton-trigger  {
+        
+	background:  #5881d9 url(images/downArrow.png) center no-repeat;
+  	background: url(images/downArrow.png) center no-repeat, -moz-linear-gradient(
+		top,
+		#0087cb,
+		#5881d9);
+	background: url(images/downArrow.png) center no-repeat, -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#0087cb), 
+		to(#5881d9));
+
+
+	background: url(images/downArrow.png) center no-repeat, -o-linear-gradient(top, #0087cb 0%, #5881d9 100%);
+	background: url(images/downArrow.png) center no-repeat, -ms-linear-gradient(top, #0087cb 0%, #5881d9 100%);
+       
+}
+
+.hud .cpbutton.pullsdown .cppopupbutton-trigger
+{
+
+	background:  #909090 url(images/downArrow.png) center no-repeat;
+  	 background: url(images/downArrow.png) center no-repeat, -moz-linear-gradient(
+		top,
+		#909090,
+		#505050);
+	 background: url(images/downArrow.png) center no-repeat, -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#909090), 
+		to(#505050));
+
+
+	background: url(images/downArrow.png) center no-repeat, -o-linear-gradient(top, #909090 0%, #505050 100%);
+	background: url(images/downArrow.png) center no-repeat, -ms-linear-gradient(top, #909090 0%, #505050 100%);
+
+	border: 1px solid #202020 ;
+
+}
+
+ 
+.hud .cppopupbutton.cpbutton
+{
+	border:none;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px ;
+	border-radius: 5px;
+}
+
+
+.cpbutton.cppopupbutton
+{
+	border:none;
+	-moz-border-radius: 5px 0px 0px 5px;
+	-webkit-border-radius: 5px 0px 0px 5px;
+	border-radius: 5px 0px 0px 5px;
+	background: none;
+	
+}
+
+.cpbutton.cppopupbutton.textured
+{
+	background: #e0e0e0; 
+  	background: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#c3c3c3));
+	background: -moz-linear-gradient(top, #f6f6f6, #c3c3c3);
+	background: -o-linear-gradient(top, #f6f6f6, #c3c3c3);
+	background: -ms-linear-gradient(top, #f6f6f6 0%,#c3c3c3 100%); 
+	border: 1px solid #6a6a6a;
+
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+
+
+}
+
+.cpbutton.highlighted.cppopupbutton.textured
+{	
+	background: #909090;
+	background: -moz-linear-gradient(top, #d5d5d5, #8a8a8a);
+	background: -o-linear-gradient(top, #d5d5d5, #8a8a8a);
+	background: -ms-linear-gradient(top, #d5d5d5 0%,#8a8a8a 100%); 
+ 
+	-moz-box-shadow: inset 0 1px 2px 1px #494949;
+	-webkit-box-shadow: inset 0 1px 2px 1px #494949;
+	box-shadow: inset 0 1px 2px 1px #494949;
+}
+
+.cpbutton.selected.cppopupbutton.textured
+{
+	background: #909090;
+	background: -webkit-gradient(linear, left top, left bottom, from(#d5d5d5), to(#8a8a8a));
+	background: -moz-linear-gradient(top, #d5d5d5, #8a8a8a);
+	background: -o-linear-gradient(top, #d5d5d5, #8a8a8a);
+	background: -ms-linear-gradient(top, #d5d5d5 0%,#8a8a8a 100%); 
+ 
+	-moz-box-shadow: inset 0 1px 2px 1px #494949;
+	-webkit-box-shadow: inset 0 1px 2px 1px #494949;
+	box-shadow: inset 0 1px 2px 1px #494949;
+}
+
+.cpbutton.textured .cppopupbutton-trigger
+{	
+ 	border:none;
+	background: url(images/popupBlack.png) center no-repeat, #e0e0e0 ; 
+  	background: url(images/popupBlack.png) center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#c3c3c3));
+	background: url(images/popupBlack.png) center no-repeat, -moz-linear-gradient(top, #f6f6f6, #c3c3c3);
+	background: url(images/popupBlack.png) center no-repeat,-o-linear-gradient(top, #f6f6f6, #c3c3c3);
+	background: url(images/popupBlack.png) center no-repeat, -ms-linear-gradient(top, #f6f6f6 0%,#c3c3c3 100%); 
+}
+
+
+.cpbutton.textured.pullsdown .cppopupbutton-trigger 
+{	
+ 	border:none;
+	background: url(images/downArrowBlack.png) center no-repeat, #e0e0e0 ; 
+  	background: url(images/downArrowBlack.png) center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#c3c3c3));
+	background: url(images/downArrowBlack.png) center no-repeat,  -moz-linear-gradient(top, #f6f6f6, #c3c3c3);
+	background: url(images/downArrowBlack.png) center no-repeat, -o-linear-gradient(top, #f6f6f6, #c3c3c3);
+
+	background: url(images/downArrowBlack.png) center no-repeat, -ms-linear-gradient(top, #f6f6f6 0%,#c3c3c3 100%);  
+}
+
+.cpbutton.textured.highlighted .cppopupbutton-trigger,
+.cpbutton.textured.selected .cppopupbutton-trigger
+
+{
+	background: url(images/popupBlack.png) center no-repeat, transparent ; 
+	border: none;
+   
+}
+
+.cpbutton.textured.highlighted.pullsdown .cppopupbutton-trigger,
+.cpbutton.textured.selected.pullsdown .cppopupbutton-trigger
+{
+	background: url(images/downArrowBlack.png) center no-repeat, transparent ; 
+	border: none;
+}
+
+/*check box*/
+ 
+ 
+.cpview.cpcheckbox, .cpview.cpcheckbox.highlighted, .cpview.cpcheckbox.disabled, .cpview.cpcheckbox.selected, 
+.cpcheckbox.selected.highlighted, .cpview.cpcheckbox.highlighted.focus, .cpcheckbox.selected.focus,
+.cpcheckbox.focus
+{
+	border:none;
+	background: none;
+	color:black;
+
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.hud .cpview.cpcheckbox, .hud .cpcheckbox.highlighted, .hud .cpcheckbox.selected,
+.hud .cpcheckbox.focus
+{
+	border:none;
+	background: none;
+	color:black;
+
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+
+}
+
+
+
+.cpbutton-image-view.checkbox 
+{
+	position: absolute;
+	 width:17px;
+	 height:17px;
+	 border : 1px solid #909090 ;
+	 overflow: visible !important;
+	 background:#fcfcfc;
+	-moz-border-radius: 4px  ;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+
+	-moz-box-shadow: 0 0 1px #b0b0b0;
+	-webkit-box-shadow: 0 0 1px #b0b0b0;
+	-o-box-shadow: 0 0px 1px #b0b0b0;
+	box-shadow: 0px 0px 1px #b0b0b0;
+}
+
+.cpbutton-image.checkbox
+{
+	position: absolute;
+	width:15px;
+	height:15px;
+	 
+}
+
+ 
+.cpcheckbox.selected .cpbutton-image.checkbox,
+.cpcheckbox.selected.focus .cpbutton-image.checkbox
+{
+	width: 19px;
+	height: 19px;
+	left:-1px;
+	top:-5px;
+
+	background:transparent url(images/button/check-mark.png) center no-repeat ;
+}
+
+
+.cpcheckbox.selected.focus .cpbutton-image-view.checkbox,
+.cpcheckbox.focus .cpbutton-image-view.checkbox,
+.cpcheckbox.mixed.focus .cpbutton-image-view.checkbox,
+.cpcheckbox.selected.focus .cpbutton-image-view.radio,
+.cpcheckbox.focus .cpbutton-image-view.radio  
+{
+	 
+	border:1px solid #5881d9;
+	-webkit-box-shadow: 0 0px 2px #5881d9;
+    -moz-box-shadow: 0 0px 2px #5881d9;
+    -o-box-shadow: 0 0px 2px #5881d9;
+	box-shadow:0 0px 2px #5881d9;
+}
+
+ 
+
+
+.cpcheckbox.mixed .cpbutton-image.checkbox,
+.cpcheckbox.mixed.focus .cpbutton-image.checkbox 
+{
+	background: url(images/button/horizontal-line.png) center no-repeat;
+}
+ 
+
+ 
+ 
+ 
+
+.hud .cpcheckbox.selected.focus   .cpbutton-image.checkbox,
+.hud .cpcheckbox.selected  .cpbutton-image.checkbox
+{
+	background: url(images/button/HUD/check-mark.png) no-repeat;
+}
+
+.hud .cpcheckbox.focus  .cpbutton-image-view.checkbox,
+.hud .cpcheckbox.mixed.focus   .cpbutton-image-view.checkbox,
+.hud .cpcheckbox.selected.focus  .cpbutton-image-view.checkbox,
+{
+	 border: 1px solid #131313; 
+    -webkit-box-shadow: 0 0px 2px #959595;
+	    -moz-box-shadow: 0 0px 2px #959595;
+	    -o-box-shadow: 0 0px 2px #959595;
+		box-shadow:0 0px 2px #959595;
+}
+
+.hud .cpcheckbox.mixed   .cpbutton-image.checkbox,
+.hud .cpcheckbox.mixed.focus  .cpbutton-image.checkbox
+{
+	background: url(images/button/HUD/horizontal-line.png) center no-repeat;
+}
+
+ /* radio */
+
+.cpbutton-image-view.radio 
+{
+	 	position: absolute;
+        z-index: 5;
+        left:0;
+        top:0;
+        cursor: default; 
+      	width:18px;
+		height:18px;
+		border:1px solid #828282;
+		background:#fcfcfc;
+		-moz-border-radius: 50px; 
+	    -o-border-radius: 50px; 
+	    -webkit-border-radius: 50px;
+		border-radius:50px;
+		padding:0px;
+	 
+		
+}
+
+.cpcheckbox.selected .cpbutton-image.radio 
+{
+ 	top:5px;
+	left:5px;
+	position:absolute;
+	width:6px;
+	height:6px;
+	background:#202020;
+	-moz-border-radius: 50px; 
+	-o-border-radius: 50px; 
+	-webkit-border-radius:50px;
+	border-radius:50px;
+
+ 
+}
+
+.cpview.cpcheckbox.selected.focus .cpbutton-image.radio 
+{
+	background: #5881d9;
+
+}
+
+ 
+
+.cpview.cpcheckbox.focus .cpbutton-image-view.radio 
+{
+	 
+	background:#f0f0f0;
+  
+}
+
+
+.hud .cpcheckbox .cpbutton-image-view.checkbox
+{
+	  border:1px solid #131313 !important;
+		background: #404040;
+	  	background: -moz-linear-gradient(
+			top,
+			#505050,
+			#303030);
+		background: -webkit-gradient(
+			linear, left top, left bottom, 
+			from(#505050), 
+			to(#303030));
+
+
+		background: -o-linear-gradient(top, #505050 0%, #303030 100%);
+		
+		-webkit-box-shadow:none;
+	    -moz-box-shadow: none;
+	    -o-box-shadow: none;
+		box-shadow:none;
+}
+
+.hud .cpcheckbox.mixed .cpbutton-image.checkbox,
+.hud .cpcheckbox.mixed.focus .cpbutton-image.checkbox
+{
+	background: url(images/button/HUD/horizontal-line.png) center no-repeat;
+}
+
+.hud .cpcheckbox.mixed.focus .cpbutton-image-view.checkbox,
+.hud .cpcheckbox.selected.focus .cpbutton-image-view.checkbox
+{
+	 border: 1px solid #131313; 
+    -webkit-box-shadow: 0 0px 2px #959595;
+	    -moz-box-shadow: 0 0px 2px #959595;
+	    -o-box-shadow: 0 0px 2px #959595;
+		box-shadow:0 0px 2px #959595;
+}
+
+.hud .cpcheckbox.selected.focus .cpbutton-image.checkbox,
+.hud .cpcheckbox.selected .cpbutton-image.checkbox
+{
+	background: url(images/button/HUD/check-mark.png) no-repeat;
+}
+
+ 
+
+.hud .cpcheckbox.focus .cpbutton-image-view.checkbox
+{
+ 	border: 1px solid #131313;
+	  -webkit-box-shadow: 0 0px 2px #959595;
+	    -moz-box-shadow: 0 0px 2px #959595;
+	    -o-box-shadow: 0 0px 2px #959595;
+		box-shadow:0 0px 2px #959595;
+}
+
+
+.hud .cpview.cpcheckbox .cpbutton-image-view.radio
+{
+	    border:1px solid #131313 !important;
+		background: #404040;
+	  	background: -moz-linear-gradient(
+			top,
+			#505050,
+			#303030);
+		background: -webkit-gradient(
+			linear, left top, left bottom, 
+			from(#505050), 
+			to(#303030));
+
+
+		background: -o-linear-gradient(top, #505050 0%, #303030 100%);
+		background: -ms-linear-gradient(top, #505050 0%, #303030 100%);
+		-webkit-box-shadow:none;
+	    -moz-box-shadow: none;
+	    -o-box-shadow: none;
+		box-shadow:none;
+}
+
+.hud .cpcheckbox.selected.focus .cpbutton-image-view.radio,
+.hud .cpcheckbox.focus .cpbutton-image-view.radio
+{
+	 border: 1px solid #131313;
+	 -webkit-box-shadow: 0 0px 2px #959595;
+	    -moz-box-shadow: 0 0px 2px #959595;
+	    -o-box-shadow: 0 0px 2px #959595;
+		box-shadow:0 0px 2px #959595;
+
+	  
+}
+
+.hud .cpcheckbox.selected .cpbutton-image.radio,
+.hud .cpcheckbox.selected.focus .cpbutton-image.radio
+{
+	 background:#a7a7a7;
+}
+
+
+ 
+ 
+ 

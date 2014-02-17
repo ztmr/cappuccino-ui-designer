@@ -1,0 +1,365 @@
+
+.cpmenu { 
+         
+        position: absolute;
+        background:#fafafa; 
+        margin: 0; 
+        border:1px solid #b5b4b5;
+        -moz-box-shadow: 0px 5px 10px rgba(0,0,0,0.4);
+        -webkit-box-shadow: 0px 5px 10px rgba(0,0,0,0.4);
+        box-shadow: 0px 5px 10px rgba(0,0,0,0.4);
+        z-index:20000 !important;
+        outline:none;
+        width:150px;
+        height:200px;
+        overflow:hidden !important;
+        height:5px; 
+
+        -moz-border-radius: 5px  ;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+    
+        
+ }
+
+
+.cpmenu.menubar
+{
+    -moz-border-radius: 0px 0px 5px 5px ;
+    -webkit-border-radius: 0px 0px 5px 5px ;
+    border-radius: 0px 0px 5px 5px ;
+}
+
+.cpmenu .cpmenu { margin-top: -3px; position: absolute; }
+
+.cpmenu.menubar 
+{ 
+   border-top:1px solid transparent; 
+        
+}
+.cpmenu-body
+{
+    	position:relative; 
+        list-style:none;
+  		display:block;
+        padding:0px;  
+        margin:0px;
+        overflow:hidden;
+        position:absolute;
+        top:16px;
+        left:0px; 
+        width :100%;     
+}
+
+.cpmenu-body .cpmenu-item 
+{ 
+        margin:0px; 
+        border: none;  
+        padding: 0;  
+        position:relative;  
+        outline: none; 
+        overflow:hidden; 
+        
+		height:24px;
+
+}
+  
+.cpmenu-body .cpmenu-item label { 
+         
+
+		padding-left:20px ; 
+        position: absolute;
+        height:16px;
+        top : 4px;
+        left : 1px;
+        border:none; 
+        color:#4f4f4f;
+        text-decoration: none;  
+        font-weight: normal;  
+        font-family: Arial,sans-serif; 
+        font-size: 13px; 
+        cursor:default;  
+        white-space: nowrap; 
+        overflow:hidden;
+        margin:0px; 
+        text-shadow:0px 1px #fafafa;
+	    text-overflow:ellipsis;  
+    	-webkit-user-select: none; 
+        -moz-user-select: none; 
+        -o-user-select: none;
+        user-select: none; 
+     
+}
+
+.cpmenu-body .cpmenu-item.disabled label
+{
+        color:#aaaaaa; 
+}
+
+.cpmenu-body .cpmenu-item.highlight
+{ 
+	background:  #5881d9;
+    background: -moz-linear-gradient(
+        top,
+        #5881d9,
+        #416ac2);
+
+     background: -webkit-gradient(
+        linear, left top, left bottom, 
+        from(#5881d9), 
+        to(#416ac2));
+
+
+    background: -o-linear-gradient(top, #5881d9 0%, #416ac2 100%);
+    background:  -ms-linear-gradient(top, #5881d9 0%, #416ac2 100%);
+	
+     
+}
+ 
+.cpmenu-body .cpmenu-item.highlight label
+ {
+        color:#ffffff;
+        text-shadow:0px 1px #3f3f3f;
+ }
+
+.cpmenu-item-icon {
+        
+		background:transparent;
+        width : 15px;
+        height : 15px;
+        position:absolute; 
+		left:2px;
+		top:4px;
+        border:none;
+        outline:none;
+        background:none;
+ 
+} 
+
+.cpmenu-item-icon.checked 
+{
+    
+	background:url(images/menu/check-mark.png) center no-repeat;
+	
+}
+
+.cpmenu-item.highlight .cpmenu-item-icon.checked
+{
+
+	background:url(images/menu/checkmark-white.png) center no-repeat;
+}
+
+.cpmenu-item-icon.selected
+{
+     background:url(images/menu/menuitemselected.png) center no-repeat;
+	 
+}
+
+.cpmenu-item.highlight .cpmenu-item-icon.selected
+{
+	 background:url(images/menu/menuitemselectedhighlight.png) center no-repeat;
+}
+
+.cpmenu-item-accessoryView
+{
+    position: relative !important;
+    float:right;
+    padding:0;
+    margin-left:5px;
+}
+ 
+.cpmenu-body .cpmenu-item .cpmenu-keyequivalent-text
+{
+	color:#4f4f4f;
+	font:12px Arial,sans-serif;  
+	padding:0;
+ 	position:absolute;
+ 	right:10px;
+ 	top:4px;
+}
+ 
+.cpmenu-body .cpmenu-item.highlight .cpmenu-keyequivalent-text
+{
+	color:#ffffff;
+}
+
+.cpmenu-body .cpmenu-item .cpmenu-item-triangle-bullet {
+        
+        width: 9px;
+        height: 9px;
+        position:absolute;
+        right:8px;
+        top:7px;
+        background:url(images/browser-leaf.png) no-repeat ;
+         
+}
+
+.cpmenu-body .cpmenu-item.highlight .cpmenu-item-triangle-bullet
+{
+     
+		background:url(images/browser-leaf-highlighted.png) no-repeat ;
+}
+  
+
+/* icon support */
+.cpmenu-icons { position: relative; }
+.cpmenu-icons .cpmenu-item a { position: relative; padding-left: 2em; }
+
+/* left-aligned */
+.cpmenu-body .cpicon { position: absolute; top: .2em; left: .2em; }
+
+/* right-aligned */
+.cpmenu-body .cpmenu-icon { position: static; float: right; }
+
+
+.cpmenu-item-separator {
+        height :0px;
+        width : auto;
+        border-top:1px solid #b0b0b0;
+        margin: 3px;
+        
+}
+
+.cpmenu-scrollup
+{
+    height:18px;
+    width:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:#ffffff;
+     z-index:10; 
+}
+
+.cpmenu-scrolldown
+{
+    height:18px;
+    width:100%;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    background:#ffffff;
+    z-index:10;
+
+}
+ 
+
+.cpmenu-scrollup-img
+{
+        text-align: center;
+        margin:auto;
+        height:18px;
+        width:35px;
+		background:url(images/menu/CPMenuWindowMoreAbove.png) no-repeat;
+        
+       
+        
+}
+ 
+.cpmenu-scrolldown-img
+{
+ 
+        text-align: center;
+        margin:auto;
+        height:18px;
+        width:35px;
+		background:url(images/menu/CPMenuWindowMoreBelow.png) no-repeat;
+}
+
+.cpmenubar 
+{
+        position:absolute;
+        top:0px;
+        left:0px;
+        width:100%;
+		border-bottom:1px solid #b5b5b5;
+        
+		background: #f0f0f0;
+	  	background: -moz-linear-gradient(
+			top,
+			#f9f9f9,
+			#e7e7e7);
+		background: -webkit-gradient(
+			linear, left top, left bottom, 
+			from(#f9f9f9), 
+			to(#e7e7e7));
+
+
+		background: -o-linear-gradient(top, #f9f9f9 0%, #e7e7e7 100%);
+		background: -ms-linear-gradient(top, #f9f9f9 0%, #e7e7e7 100%);
+ 
+ 		 
+}
+
+.cpmenubar-menu
+{
+	  position:relative;
+      font: 12px Arial,sans-serif;
+      color:#505050; 
+	  margin-left:4px;
+      text-overflow:ellipsis; 
+      height: 28px;
+	  float:left;
+      cursor:default !important;
+      overflow: hidden; 
+      text-align:center; 
+	  width: auto;
+      min-width:50px;
+	  line-height:2.4;
+
+      -webkit-user-select: none; 
+      -moz-user-select: none; 
+      -o-user-select: none;
+      user-select: none; 
+	outline:none;
+	border:none;
+        
+}
+
+.cpmenubar-menu-text
+{
+	height:28px;
+	margin:0 8px 0 8px;
+ 	text-shadow:0px 1px #fafafa;
+}
+
+.cpmenubar-menu-arrow
+{
+	width :  7px;
+	height : 6px; 
+	float:left; 
+	margin-left:5px;
+	margin-top:11px;
+	background:url(images/menu/menuDownArrow.png) center no-repeat;
+}
+
+.cpmenubar-menu.selected  .cpmenubar-menu-arrow
+{ 
+	background:url(images/menu/menuDownArrowHighlighted.png) center no-repeat;
+}
+ 
+.cpmenubar-menu.selected
+{
+        color:#f2f2f2;
+        
+		background:  #5881d9;
+    background: -moz-linear-gradient(
+        top,
+        #5881d9,
+        #416ac2);
+
+     background: -webkit-gradient(
+        linear, left top, left bottom, 
+        from(#5881d9), 
+        to(#416ac2));
+
+
+    background: -o-linear-gradient(top, #5881d9 0%, #416ac2 100%);
+    background:  -ms-linear-gradient(top, #5881d9 0%, #416ac2 100%);
+        
+}
+
+.cpmenubar-menu.selected .cpmenubar-menu-text
+{
+	text-shadow:0px 1px #3f3f3f;
+}

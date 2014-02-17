@@ -1,0 +1,42 @@
+.cpcolorpanel-colorpreview
+{
+	border:2px solid #b5b5b5;
+}
+
+.cpcolorpanel-colorwheel 
+{
+	background: url(images/colorwheel.png) center no-repeat; 
+}
+
+.cpcolorpanel-blackwheel 
+{
+	background: url(images/wheel_black.png) center no-repeat; 
+}
+
+
+.cpcolorpanel-colorwheel-selectbox
+{
+	border:1px solid black;
+	position: relative;
+	width:3px;
+	height:3px;
+	background: #ffffff;
+}
+
+
+.cpslider.cpcolorpanel-brightness-slider .cpslider-handle
+{
+	margin-top:6px;
+
+}
+
+
+.cpslider.cpcolorpanel-brightness-slider
+{
+	background: url(images/brightness_bar.png) no-repeat; 
+	border:none;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	 -o-box-shadow:none;
+	box-shadow:none;
+}

@@ -1,0 +1,41 @@
+.cpview.canvas
+{
+	 background : url(Resources/gridBackground.png) repeat;
+}
+
+
+.cpview.widgetSearchBar
+{
+	background:#e3e3e3;
+	background: -moz-linear-gradient(
+		top,
+		#fafafa,
+		#d3d3d3);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#fafafa), 
+		to(#d3d3d3));
+		
+	background: -o-linear-gradient(top, #fafafa 0%, #d3d3d3 100%);
+	background: -ms-linear-gradient(top, #fafafa 0%, #d3d3d3 100%);
+
+	border-bottom:1px solid #b0b0b0 !important;
+}
+
+.widgetItem
+{
+	border-bottom:1px solid #b6bdc5 !important;
+
+	background: #eef4fc; 
+	background: -moz-linear-gradient(
+		top,
+		#eef5fd,
+		#edf4fc);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#eef5fd), 
+		to(#edf4fc));
+		
+	background: -o-linear-gradient(top, #eef5fd 0%, #edf4fc 100%);
+	background: -ms-linear-gradient(top, #eef5fd 0%, #edf4fc 100%);
+}

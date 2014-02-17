@@ -1,0 +1,51 @@
+.cpview.cpsplitview
+{
+    cursor:default;
+}
+
+
+
+.view-divider.horizontal {
+        
+    border-left:1px solid #A5A5A5 ;
+    border-right:1px solid #A5A5A5 ;
+    background:#e1e1e1;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #d6d6d6), color-stop(100%, #f8f8f8)); /* Safari 4+, Chrome 2+ */ 
+    background: -webkit-linear-gradient(left, #d6d6d6, #f8f8f8) ;
+    background: -moz-linear-gradient(left, #d6d6d6, #f8f8f8) ;
+    background: -o-linear-gradient(left, #d6d6d6,#f8f8f8); 
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d6d6d6', endColorstr='#f8f8f8', gradientType='1');  
+    background: -ms-linear-gradient(left, #d6d6d6,#f8f8f8); 
+    width: 8px;
+    height: 100%;
+    position:absolute; 
+    zoom:1;
+    outline:none;
+    cursor: col-resize; 
+}
+
+.view-divider.vertical {
+        
+    background:url(images/SplitViewHorizontal.png) repeat-x;
+    width: 100%;
+    height: 8px;
+	border-bottom: 1px solid #b5b5b5;
+    position:absolute; 
+    zoom:1;
+    outline:none;
+    cursor: row-resize; 
+}
+
+.view-divider.vertical.fixed, .view-divider.horizontal.fixed {
+        cursor : inherit !important;
+}
+
+.view-divider.no-thick.horizontal {
+    border : none;
+    border-left : 1px solid #888;
+}
+
+.view-divider.no-thick.vertical {
+    border : none;
+    border-bottom : 1px solid #888;
+}

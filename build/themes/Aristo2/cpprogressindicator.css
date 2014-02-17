@@ -1,0 +1,85 @@
+.cpview.cpprogressindicator
+{
+	padding:0px;
+	position:relative;
+}
+
+.cpprogressindicator.indeterminate
+{
+	border:1px solid #b5b5b5;
+	 -moz-border-radius: 3px; 
+    -o-border-radius: 3px; 
+    -webkit-border-radius: 3px;   
+    border-radius: 3px; 
+
+}
+
+
+.cpprogressindicator-progress
+{
+	z-index:10;
+	position: absolute; 
+	top:0px;
+	left:1px;
+	background:#007bb8;
+	border-top:1px solid #2f59b1;
+	border-bottom:1px solid #2f59b1;
+	 -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+.cpwindow.hud .cpprogressindicator-progress
+{
+	background:#8a8a8a;
+	border-top:1px solid #070707;
+	border-bottom:1px solid #070707;
+
+}
+
+.cpprogressindicator.indeterminate .cpprogressindicator-progress 
+{	
+	left:0px;
+	border:none;
+	background: url(images/progressbar/indeterminate-progress-bar.gif) repeat;
+
+}
+
+
+
+
+.cpprogressindicator-inner
+{
+	position: absolute; 
+	width:100%;
+	top:0px;
+	left:0px;
+	border:1px solid #b5b5b5;
+	border-left:1px solid #3c6694;
+    -moz-border-radius: 3px; 
+    -o-border-radius: 3px; 
+    -webkit-border-radius: 3px;   
+    border-radius: 3px; 
+    z-index: 0; 
+     -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+.cpwindow.hud .cpprogressindicator-inner
+{
+	border:1px solid #070707;
+	border-left:1px solid #070707;
+
+}
+
+.cpprogressindicator-inner.full
+{
+	border-right-color:#3c6694;
+}
+
+
+.cpprogressindicator.indeterminate .cpprogressindicator-inner
+{
+	border:none;
+}

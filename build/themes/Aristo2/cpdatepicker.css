@@ -1,0 +1,114 @@
+.cpdatepicker
+{
+ 	-webkit-touch-callout: none;
+	-webkit-user-select: none ;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+
+ .cpdatepicker-table
+ {
+ 
+    border: none; 
+    padding:0px;
+    border-spacing:0px;
+    margin-top:1px;
+    position:absolute;
+    top:42px;
+    left:0px;
+     -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+     
+ }
+
+ 
+
+.cpdatepicker-day-cell
+{
+    border-radius: 0;     
+    border-bottom:1px solid transparent ;  
+    border-right:1px solid transparent ;  
+    color: #4F4F4F;
+    background:none;
+	margin:0px;
+	padding:0px;
+    text-align:center;
+    width:30px;
+    height:28px;
+    cursor: default; 
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -o-user-select: none;
+    user-select: none; 
+    font: normal 14px Arial,sans-serif; 
+    vertical-align:middle;
+     -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+        
+}
+
+.cpdatepicker-day-cell.left
+ {
+        
+   
+        
+ 
+ }
+ 
+  
+ .cpdatepicker-day-cell.top
+ {
+   
+ 
+ }
+
+.cpdatepicker-day-cell.disabled
+{
+        color:#c9c9c9;
+       
+}
+
+ 
+
+.cpdatepicker-day-cell.today
+{
+        background:#007bb8;
+        color:#ffffff;
+       
+}	
+
+
+ .cpdatepicker-day-cell.selected
+ {
+         background:#FFFF99;
+         color: #4F4F4F;
+
+ }
+
+.cpdatepicker-day-labels
+{
+    position:absolute;
+    left:0px;
+    top:28px;
+}
+
+.cpdatepicker-day-label
+{
+
+	 font: bold 11px Arial,sans-serif; 
+     border:none;
+     color: #4F4F4F;
+     background:none;
+     height:17px;
+     width:30px;
+     padding:0;
+     text-align: center; 
+
+}
+
+ 

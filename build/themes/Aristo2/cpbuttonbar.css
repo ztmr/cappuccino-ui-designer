@@ -1,0 +1,35 @@
+.cpview.cpbuttonbar
+{
+	background:url(images/buttonbar/buttonbar-bezel.png) repeat-x;
+}
+
+.cpbutton.cpbuttonbar-button  
+{
+	-moz-border-radius: 0px ;
+    -webkit-border-radius: 0px ;   
+    -o-border-radius: 0px ; 
+    border-radius: 0px ; 
+    background: url(images/buttonbar/buttonbar-button-bezel-center.png) repeat-x ;
+    border-top:1px solid #bec8d3 ;
+    border-right:1px solid #bec8d3;  
+    border-left:none  ;
+    border-bottom:none ; 
+    filter:none;
+
+}
+
+.cpbutton.cpbuttonbar-button.highlighted,
+.cpbutton.cpbuttonbar-button.selected
+{	
+	border:none;
+	border-top:1px solid #a5abb3  ;	
+	border-right:1px solid #a5abb3  ;
+	background: url(images/buttonbar/buttonbar-button-bezel-highlighted-center.png) repeat-x  ;
+}
+
+.cpbutton.cpbuttonbar-button.focus
+{
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none; 
+}
